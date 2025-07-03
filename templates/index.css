@@ -1,0 +1,28 @@
+body {
+    background-color: #151515;
+    font-family: 'Inter', sans-serif;
+}
+
+.header {
+    position: absolute;
+    width: 293px;
+    height: 37px;
+    left: 574px;
+    top: 30px;
+    color:#FFFFFF;
+    text-align: center;
+    display: flex;
+}
+
+.title {
+    position: static;
+    width: 111px;
+    height: 14px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: -2%;
+    align-items: center;
+}
+
+
