@@ -1,28 +1,52 @@
 body {
     background-color: #151515;
     font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
 }
 
-.header {
-    position: absolute;
-    width: 293px;
-    height: 37px;
-    left: 574px;
-    top: 30px;
-    color:#FFFFFF;
-    text-align: center;
-    display: flex;
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px; /* Отступ от верха до текста */
 }
 
-.title {
-    position: static;
-    width: 111px;
-    height: 14px;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 14px;
-    letter-spacing: -2%;
-    align-items: center;
+.text-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 40px; /* Расстояние до кнопки */
+}
+
+.text-block h1 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 14px;
+}
+
+.text-block p {
+  font-size: 14px;
+}
+
+.button {
+  background-color: #0066ff;
+  color: #FFFFFF;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  margin-bottom: 60px; /* Расстояние до картинки */
+  transition: background 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0052cc;
+}
+
+.hero-img {
+  max-width: 100%;
+  height: auto;
 }
 
 

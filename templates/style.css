@@ -6,49 +6,53 @@
 
 body {
   background-color: #121212;
-  color: white;
-  font-family: 'Segoe UI', sans-serif;
-}
-
-.wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 30px; /* Отступ от верха до текста */
-}
-
-.text-block {
+  font-family: 'Inter', sans-serif;
+  color: #ffffff;
   text-align: center;
-  margin-bottom: 107px; /* Расстояние до кнопки */
+  padding-top: 80px;
 }
 
-.text-block h1 {
-  font-size: 24px;
-  font-weight: bold;
-  margin-bottom: 10px;
+/* Заголовок */
+.title {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 14px;
+  letter-spacing: -0.32px;
+  color: #ffffff;
+  margin: 0 0 2px 0; /* убрали верхний отступ */
 }
 
-.text-block p {
+
+/* Подзаголовок */
+.subtitle {
   font-size: 14px;
-  color: #ccc;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: -0.56px;
+  color: #ffffff;
+  margin-bottom: 40px;
 }
 
-.button {
+/* Кнопка */
+.cta-button {
   background-color: #0066ff;
-  color: #fff;
-  padding: 12px 24px;
-  text-decoration: none;
-  border-radius: 8px;
+  color: #ffffff;
+  font-size: 16px;
   font-weight: 600;
-  margin-bottom: 206px; /* Расстояние до картинки */
-  transition: background 0.3s ease;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+  margin-bottom: 80px;
 }
 
-.button:hover {
+.cta-button:hover {
   background-color: #0052cc;
 }
 
-.hero-img {
+/* Картинка */
+.main-image {
   max-width: 100%;
   height: auto;
 }
